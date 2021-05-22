@@ -1,0 +1,31 @@
+{
+  "inbounds": [
+    {
+      "port": 24380,
+      "listen": "127.0.0.1",
+      "protocol": "vless",
+      "settings": {
+        "clients": [
+          {
+            "id": "7966c347-b5f5-46a0-b720-ef2d76e1836a",
+            "level": 0,
+            "email": "test@black.blank"
+          }
+        ],
+        "decryption": "none"
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "path": "/free"
+        }
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "freedom",
+      "settings": {}
+    }
+  ]
+}
