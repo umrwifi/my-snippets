@@ -1,1 +1,0 @@
-sudo -u root ls

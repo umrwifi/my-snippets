@@ -1,0 +1,1 @@
+bash search-everywhere | fzf --preview "bat  --color=always --style=header,grid --line-range :100 {}"
