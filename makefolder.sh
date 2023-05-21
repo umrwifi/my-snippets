@@ -1,5 +1,5 @@
 #！/bin/bash
-
+# rismon project make folder
 if [ $# -ne 1 ];
 then
 	echo "Usage : $0 File_name"

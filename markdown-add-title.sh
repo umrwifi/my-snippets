@@ -1,4 +1,5 @@
 # !/bin/zsh
+# 为每个markdown文件添加一个标题
 path="$*"
 IFS=$'\n'
 cd $path

@@ -1,3 +1,4 @@
+# TODO crop .md
 filename=$*
 touch tmp
 touch $filename.md
